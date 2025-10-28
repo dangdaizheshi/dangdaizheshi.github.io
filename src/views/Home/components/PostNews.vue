@@ -20,6 +20,7 @@
     border-radius: 1rem;
     overflow: hidden;
     padding: 30px 25px;
+    margin-bottom:  10px;
     h2 {
         font-size: 21px;
         margin-bottom: 20px;

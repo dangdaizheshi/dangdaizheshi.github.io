@@ -46,6 +46,7 @@
     height: 390px;
     border-radius: 1rem;
     overflow: hidden;
+    margin: 10px 0;
     .logo {
         position: relative;
         width: 100%;

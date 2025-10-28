@@ -1,9 +1,5 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import SideBar from '@/views/Home/components/SideBar.vue'
-import PostNews from '@/views/Home/components/PostNews.vue';
-import Menu from '@/views/Home/components/Menu.vue';
-import Test from './components/Test.vue';
+
 </script>
 
 <template>
@@ -31,11 +27,7 @@ import Test from './components/Test.vue';
         </el-row>
       </el-header>
       <el-container>
-        <el-aside width="330px">
-          <SideBar />
-          <PostNews />
-          <Menu />
-        </el-aside>
+        <el-aside width="200px">Aside</el-aside>
         <el-container>
           <el-main>Main</el-main>
           <el-footer>Footer</el-footer>
@@ -45,7 +37,7 @@ import Test from './components/Test.vue';
   </div>
 </template>
 
-<style scoped>
+<style scoped lang = "scss">
 .top-nav {
   height: 60px;
   display: flex;
