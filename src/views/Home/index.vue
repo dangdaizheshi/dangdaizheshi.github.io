@@ -4,10 +4,14 @@ import SideBar from '@/views/Home/components/SideBar.vue'
 import PostNews from '@/views/Home/components/PostNews.vue';
 import Menu from '@/views/Home/components/Menu.vue';
 import Test from './components/Test.vue';
+import TopBar from './components/TopBar.vue';
+import Check from './components/Check.vue';
 </script>
 
 <template>
-  <div class="common-layout">
+  <TopBar />
+  <Check />
+  <!-- <div class="common-layout">
     <el-container>
       <el-header>
         <el-row>
@@ -42,7 +46,7 @@ import Test from './components/Test.vue';
         </el-container>
       </el-container>
     </el-container>
-  </div>
+  </div> -->
 </template>
 
 <style scoped>
